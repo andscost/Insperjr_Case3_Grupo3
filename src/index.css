@@ -1,0 +1,204 @@
+:root {
+    --cor-pricipal: #F2A32D;
+    --cor-texto: #000000;
+  }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+img {
+    width: auto;
+    height: 100%;
+  }
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 5px solid var(--cor-pricipal);
+    
+  }
+  
+  .header_esq{
+    display: flex;
+    width: 40vw;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .header_dir{
+    display: flex;
+    width: 30vw;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+  }
+
+  .botaoPreto {
+    font-size: small;
+    text-decoration: none;
+    color: var(--cor-texto);
+  }
+
+  .botaoTransparente {
+    font-size: small;
+    text-decoration: none;
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-pricipal);
+    border-radius: 0.8rem ;
+    padding: 0.6rem;
+    
+  }
+
+.textoTransparente {
+    text-decoration: none;
+    font-size: x-small;
+    color:rgb(199, 195, 199);
+}
+
+
+.botaoTransparenteCentral {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-pricipal);
+    border-radius: 0.8rem ;
+    padding: 0.6rem;
+    width: 30vw;
+}
+
+.central {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+.central img {
+    position: relative;
+    height: 60%;
+    width: auto;
+    top: 10px;
+}
+
+
+.align-vertical {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 1vh;
+    
+}
+
+.filho-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.sobreNos {
+    border-top: 5px solid var(--cor-pricipal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloSobreNos {
+    position: relative;
+    top: -30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+
+.flexCentral {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.borda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-pricipal);
+    border-radius: 0.8rem ;
+    padding: 0.6rem;
+}
+
+.construtorBusca {
+    display: flex;
+    height: 100vw;
+}
+
+.filtros {
+    width: 25%;
+    padding: 10px;
+    
+}
+
+.busca {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 75%;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+}
+
+.tamanhoSearchBar {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-pricipal);
+    border-radius: 0.8rem ;
+    padding: 0.6rem;
+    width: 60vw;
+}
+
+.disposicaoChefe {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 90%;
+    height: 40%;
+    padding: 30px;
+}
+
+.cartaoChefe {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: 30%;
+    height: 45%;
+    padding: 1px;
+    border: 2px solid var(--cor-pricipal);
+    border-radius: 0.8rem ;
+}
+.cartaoChefe img {
+    width: 100%;
+    height: 75%;
+}
